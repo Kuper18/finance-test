@@ -60,7 +60,7 @@ function getQuotes() {
   }
 }
 
-function trackTickers(socket, interval) {
+function trackTickers(socket) {
   getAllQuotes(socket);
   socket.emit('tickersName', tickers);
 
