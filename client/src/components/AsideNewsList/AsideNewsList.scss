@@ -1,0 +1,22 @@
+.aside-list {
+  height: 880px;
+  overflow: auto;
+}
+
+.aside-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.aside-list::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+
+.aside-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.aside-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
